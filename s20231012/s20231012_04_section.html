@@ -5,24 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        header{
+        * {
+            margin: 0;
+        }
+        .header{
             background-color: aliceblue;
             /* color: red; */
         }
+        .nav{
+            background-color: aquamarine;
+        }
+        .nav > a {
+            text-decoration: none;
+            color: black;
+        }
         .container{
-            
+            /* background-color: blanchedalmond; */
+            background-color: lightblue;
+            height: 80vh;
+            width: 80%;
+            margin: auto;
+        }
+        .footer{
+            background-color: aqua;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <nav>
+    <header class="header">
+        <h1>Web Title</h1>
+    </header>
+    <nav class="nav">
         <a href="#item1">item1</a>
         <a href="#item2">item2</a>
         <a href="#item3">item3</a>
     </nav>
-    <header>
-        <h1>Web Title</h1>
-    </header>
     <main>
         <div id="item1"></div>
         <section class="container">
@@ -33,6 +51,7 @@
                 ipsam est eaque consectetur blanditiis?
             </p>
         </section>
+        <br><hr><br>
 
         <div id="item2"></div>
         <section class="container">
@@ -43,6 +62,7 @@
                 ipsam est eaque consectetur blanditiis?
             </p>
         </section>
+        <br><hr><br>
 
         <div id="item3"></div>
         <section class="container">
@@ -53,7 +73,12 @@
                 ipsam est eaque consectetur blanditiis?
             </p>
         </section>
+        <br><hr><br>
+        
     </main>
+    <footer class="footer">
+        版權宣告 Lorem ipsum dolor sit amet.
+    </footer>
     
 </body>
 </html>
