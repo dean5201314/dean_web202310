@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            width: 100%;
+            background-color: aquamarine;
+        }
+        .nav>a{
+            margin-top: 5px;
+            margin-left: 20px;
+            text-align: center;
+            color: blue;
+            text-decoration: none;
+        }
+        .nav>a:hover{
+            color: red;
+            font-size: 28px;
+            transition-duration:0.5s;
+        }
+        
+        .box {
+            display: inline-block;
+            margin: auto;
+            width: 800px;
+            height: 500px;
+            background-image: url('./images/image_02.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 50px;
+        }
+
+        .box:hover {
+            background-image: url('./images/image_03.png');
+            transition-duration: 1s;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="#home">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#about">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#other">Other</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    </nav>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>
