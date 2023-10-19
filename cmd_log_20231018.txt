@@ -1,0 +1,36 @@
+    1  git -v
+    2  ls
+    3  git init
+    4  git remote add test https://github.com/dean5201314/PHP_0922.git
+    5  git remote -v
+    6  git pull test
+    7  git pull test main
+    8  history
+    9  quit
+   10  exit
+   11  git clone
+   12  git clone https://github.com/dean5201314/web-2023-9-27.git dean-web20230927
+   13  git clone https://github.com/dean5201314/web-2023-9-27.git dean-web20230927
+   14  git clone https://github.com/dean5201314/web-2023-9-27.git dean-web202309
+   15  git clone https://github.com/dean5201314/web-2023-9-27.git dean-web20230927
+   16  git clone https://github.com/dean5201314/web-2023-9-27.git dean_web20230927
+   17  cd c:git clone https://github.com/dean5201314/web-2023-9-27.git dean_web20230927
+   18  exit
+   19  pwd
+   20  git clone https://github.com/chengkk0910/web2023_0927 kaiProject
+   21  git pull https://github.com/chengkk0910/web2023_0927 kaiProject
+   22  pwd
+   23  cd kaiProject
+   24  git pull
+   25  git pull https://github.com/chengkk0910/web2023_0927
+   26  git branch
+   27  cd ..
+   28  git clone https://github.com/dean5201314/web_20230928.git dean_web20230928
+   29  exit
+   30  git pull
+   31  exit
+   32  git pull
+   33  git pull
+   34  git clone https://github.com/wdaweb/be-start-with-job-dean5201314.git
+   35  history
+   36  history > cmd_log_20231018.txt
